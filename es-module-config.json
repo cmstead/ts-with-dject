@@ -1,0 +1,9 @@
+{
+    "cwd": "app",
+    "djectLocation": "dject",
+    "isNodeApplication": true,
+    "destinationPath": "${cwd}${pathSeparator}container.ts",
+    "modulePaths": [
+        "dependencies/**/${pathSeparator}*.ts"
+    ]
+}

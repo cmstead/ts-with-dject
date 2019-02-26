@@ -1,0 +1,22 @@
+{
+  "name": "ts-with-dject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-container": "node ./node_modules/dject-cli/index --build-import-container",
+    "build-tsc": "tsc",
+    "build": "npm run build-container && npm run build-tsc",
+    "start": "npm run build && node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dject": "^1.12.2",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "dject-cli": "^1.3.9"
+  }
+}
