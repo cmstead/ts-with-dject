@@ -6,6 +6,7 @@
     },
     "files": [
         "./index.ts",
-        "./type-definitions/HelloWorldFactoryInterface.d.ts"
+        "./type-definitions/HelloWorldFactoryInterface.d.ts",
+        "./type-definitions/MainInterface.d.ts"
     ]
 }

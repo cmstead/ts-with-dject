@@ -3,7 +3,7 @@ const dependencies = [
     'helloWorldFactory'
 ];
 
-class Main {
+class Main implements MainInterface {
     helloWorldFactory: HelloWorldFactoryInterface;
 
     constructor(...injectedDependencies) {
