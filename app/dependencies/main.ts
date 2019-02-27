@@ -1,18 +1,7 @@
-const dependencies = [
-    '__container',
-    'helloWorldFactory'
-];
-
 class Main implements MainInterface {
     helloWorldFactory: HelloWorldFactoryInterface;
 
-    constructor(...injectedDependencies) {
-        const [container] = injectedDependencies;
-
-        const {
-            helloWorldFactory
-        } = container.buildDependencyMap(dependencies, injectedDependencies);
-
+    constructor(helloWorldFactory: HelloWorldFactoryInterface) {
         this.helloWorldFactory = helloWorldFactory;
     }
 
@@ -22,7 +11,6 @@ class Main implements MainInterface {
 }
 
 Main['@instantiable'] = true;
-Main['@dependencies'] = dependencies;
 
 export default {
     name: 'main',
