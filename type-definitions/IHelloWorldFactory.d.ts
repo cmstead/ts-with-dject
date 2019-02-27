@@ -1,0 +1,5 @@
+interface IHelloWorldFactory {
+
+    buildHelloWorld(): string;
+
+}

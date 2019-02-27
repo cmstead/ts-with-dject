@@ -1,7 +1,7 @@
-class Main implements MainInterface {
-    helloWorldFactory: HelloWorldFactoryInterface;
+class Main implements IMain {
+    helloWorldFactory: IHelloWorldFactory;
 
-    constructor(helloWorldFactory: HelloWorldFactoryInterface) {
+    constructor(helloWorldFactory: IHelloWorldFactory) {
         this.helloWorldFactory = helloWorldFactory;
     }
 

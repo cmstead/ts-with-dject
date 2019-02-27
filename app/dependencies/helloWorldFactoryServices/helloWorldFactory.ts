@@ -1,4 +1,4 @@
-class HelloWorldFactory implements HelloWorldFactoryInterface {
+class HelloWorldFactory implements IHelloWorldFactory {
     buildHelloWorld() {
         return 'Hello world!';
     }

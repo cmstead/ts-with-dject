@@ -1,5 +1,0 @@
-interface MainInterface {
-
-    run();
-
-}

@@ -9,8 +9,8 @@
     ],
     "files": [
         "./index.ts",
-        
-        "./type-definitions/HelloWorldFactoryInterface.d.ts",
-        "./type-definitions/MainInterface.d.ts"
+
+        "type-definitions/IHelloWorldFactory.d.ts",
+        "type-definitions/IMain.d.ts"
     ]
 }

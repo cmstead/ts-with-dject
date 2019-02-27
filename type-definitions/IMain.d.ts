@@ -1,0 +1,5 @@
+interface IMain {
+
+    run();
+
+}

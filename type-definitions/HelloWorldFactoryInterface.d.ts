@@ -1,5 +1,0 @@
-interface HelloWorldFactoryInterface {
-
-    buildHelloWorld(): string;
-
-}
